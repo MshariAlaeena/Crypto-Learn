@@ -5,10 +5,15 @@ ciphertexts, making cryptography accessible and interactive.
 Let's dive into the world of cryptography and have some fun deciphering! 🕵️‍♂️💻
 
 1- The Monoalphabetic Cipher is utilized for its foundational approach to substitution cryptography.
+
 2- The Playfair Cipher is implemented for its ability to encrypt digraphs, offering a more complex layer of security.
+
 3- The Vigenère Cipher is selected for its use of a keyword to achieve polyalphabetic substitution, enhancing cryptographic strength.
+
 4- The Keyed Transposition Cipher is employed for its method of rearranging the plaintext to achieve encryption.
+
 5- A combination of the Monoalphabetic Cipher and the Vigenère Cipher is utilized to leverage the strengths of both algorithms in a unique encryption approach.
+
 6- The DES Cipher is incorporated for its standardized approach to symmetric•key encryption for electronic data.
 
 instructions:
