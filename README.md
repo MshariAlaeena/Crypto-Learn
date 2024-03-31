@@ -1,48 +1,45 @@
-This educational tool simplifies the learning of encryption and decryption by guiding
-users through various methods, offering explanations, and decrypting texts. It employs frequency analysis for unrecognized 
-ciphertexts, making cryptography accessible and interactive.
+# Encryption and Decryption Educational Tool
 
-Let's dive into the world of cryptography and have some fun deciphering! 🕵️‍♂️💻
+This Java application serves as an educational tool to demonstrate various encryption and decryption algorithms. It supports multiple cipher techniques including monoalphabetic, playfair, vigenere, keyed transposition, and more, providing an interactive way for users to encrypt and decrypt texts.
 
-1- The Monoalphabetic Cipher is utilized for its foundational approach to substitution cryptography.
-2- The Playfair Cipher is implemented for its ability to encrypt digraphs, offering a more complex layer of security.
-3- The Vigenère Cipher is selected for its use of a keyword to achieve polyalphabetic substitution, enhancing cryptographic strength.
-4- The Keyed Transposition Cipher is employed for its method of rearranging the plaintext to achieve encryption.
-5- A combination of the Monoalphabetic Cipher and the Vigenère Cipher is utilized to leverage the strengths of both algorithms in a unique encryption approach.
-6- The DES Cipher is incorporated for its standardized approach to symmetric•key encryption for electronic data.
+## Features
 
-instructions:
+- Supports multiple encryption algorithms.
+- Interactive console-based UI for easy use.
+- Encrypt and decrypt text files.
+- Educational tool for understanding encryption and decryption processes.
 
-1. Start by choosing an action:
-   • Press 1 to encrypt a message.
-   • Press 2 to decrypt a message.
+## Prerequisites
 
-2. If you choose to encrypt (1), you'll see a menu with options:
-   • 1 for Monoalphabetic Cipher
-   • 2 for Playfair Cipher
-   • 3 for Vigenère Cipher
-   • 4 for Keyed Transposition Cipher
-   • 5 for a combo of Monoalphabetic and Vigenère Ciphers
-   • 6 for DES Cipher
+- Java Development Kit (JDK) installed on your system.
 
-3. After selecting an encryption method:
-   • For Monoalphabetic Cipher, you'll first be asked how many times to shift the letters. Enter a number.
-   • For all options, you'll then be asked to type in your message (plain text).
+## How to Run
 
-4. Upon entering your message:
-   • The system encrypts your message, showing you how it's done and then displays the encrypted message.
+1. Clone or download this repository to your local machine.
+2. Navigate to the directory containing the `EDEducationalTool.java` file.
+3. Compile the Java program by running `javac EDEducationalTool.java` in your terminal.
+4. Run the compiled class with `java EDEducationalTool`.
+5. Follow the on-screen instructions to choose between encryption and decryption, select an algorithm, and input the text or file path as requested.
 
-5. Next steps:
-   • 1 decrypts the message you just encrypted.
-   • 2 lets you start over, choosing to encrypt or decrypt a new message.
-   • 3 exits the system.
+Note: Ensure all dependent classes and files (such as cipher classes) are in the same directory and compiled before running the `EDEducationalTool` class.
 
-6. Note for using DES: 
-   • After encrypting with DES, the system skips the mini menu and goes back to the start because DES can't decrypt in this setup.
+## License
 
-7. If you're decrypting (2):
-   • You'll enter the encrypted message.
-   • The system checks if it was encrypted by it before and uses the correct method and key to decrypt it.
-   • If it's a new message, the system attempts to decrypt it using frequency analysis and shows the result.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-8. After decrypting, you'll return to the initial choice to encrypt or decrypt another message.
+## Contributors
+
+This project was made possible thanks to the hard work and dedication of the following team members:
+
+- Faisal Alwahhabi
+- Mshari Alaeena
+- Mshari Aldawood
+- Mshari Almuammar
+- Talal Alrafee
+- Turki Alsugair
+
+Each team member played a crucial role in the development and success of this project. We extend our deepest gratitude to all for their invaluable contributions.
+
+## Acknowledgments
+
+- Special thanks to all cryptographic algorithm inventors whose work inspired this educational tool.
